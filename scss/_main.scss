@@ -1,0 +1,416 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.fondo{
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 13%, rgba(95,186,72,1) 52%, rgba(51,99,39,1) 79%);
+	font-family: 'Raleway', sans-serif;
+}
+.principal{
+	padding-top: 5rem;
+}
+.container-fluid, .container-xl{
+	@media all and (min-width: 768px){
+		padding-top: 2.5rem;
+	}
+	@media all and (min-width: 1200px){
+		padding-top: 5rem;
+	}
+	.titulo-p{
+		text-decoration: underline double #000;
+		font-size: 1.2rem;  
+		@media all and (min-width: 768px){
+			font-size: 1.4rem; 
+		}
+		@media all and (min-width: 1200px){
+			font-size: 1.6rem;
+		}
+	}
+}
+.navbar-toggler{
+	.navbar-toggler-icon{
+		background-image: url(https://cdn.icon-icons.com/icons2/1572/PNG/512/3592870-brochure-document-menu-note-office-page-papers_107750.png);
+	}	
+}
+.navbar-dark .navbar-toggler {
+    border-color: #569557;
+}
+.navbar-dark .container-md img{
+	margin-right: 13rem;
+	width: 60px;
+	height: 60px;
+	border-radius: 150px;
+	@media all and (min-width: 400px){
+		margin-right: 1rem;
+	}
+}
+.titulo-t{
+	text-decoration: underline #000;
+}
+.navbar-dark .navbar-brand{
+	color: #569557;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.8rem;
+	@media all and (min-width: 768px){
+		font-size: 0.9rem;
+	}
+	@media all and (min-width: 1200px){
+		font-size: 1.2rem;
+	}
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #569557;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.8rem;
+	@media all and (min-width: 768px){
+		font-size: 0.9rem;
+	}
+	@media all and (min-width: 1200px){
+		font-size: 1.2rem;
+	}
+}
+.navbar{
+	@media all and (min-width: 1200px){
+		height: 5rem;
+		transition: all 120ms;
+		position: fixed;
+		width: 100%;
+		z-index: 100;
+		
+	}
+	&:hover{
+		@media all and (min-width: 1200px){
+			height: 6.5rem;
+		}
+	}
+}
+.titulo-t{
+	@media all and (min-width: 1200px){
+		font-size: 1.5rem 
+	}
+}
+.texto{
+	@media all and (min-width: 1200px){
+		font-size: 1.2rem 
+	}
+}
+article{
+	.section{
+		@media all and (min-width: 1200px){
+			padding-top: 3rem;
+		}
+		img{
+			height: 300px;
+			width: 300px;
+			@media all and (min-width: 768px){
+				height: 500px;
+				width: 500px;
+			}
+		}
+		.image{
+			height: 200px;
+			width: 300px;
+		}
+		.texto{
+			font-size: 1.3rem;
+		}
+		ul li{
+			font-size: 1.2rem;	
+		}
+	}
+}
+.carousel-control-prev{
+	padding-bot: 5rem;	
+	@media all and (min-width: 1000px){
+		padding-top: 32rem;	
+	}
+	.carousel-control-prev-icon{
+		background-image: url(https://cdn.icon-icons.com/icons2/731/PNG/512/next-1_icon-icons.com_62883.png);
+		-webkit-transform: rotate(180deg)
+	}
+}
+.carousel-control-next{
+	padding-bot: 5rem;	
+	@media all and (min-width: 1000px){
+		padding-top: 32rem;	
+	}
+	.carousel-control-next-icon{
+		background-image: url(https://cdn.icon-icons.com/icons2/731/PNG/512/next-1_icon-icons.com_62883.png);
+	}
+}
+.banner{
+	background-image: url(https://i.pinimg.com/originals/f0/96/1a/f0961aaca353129b012db4b9e87fc9ed.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	@media all and (min-width: 524px){
+		background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20150410103521_800.jpg);	
+	}
+	@media all and (min-width: 768px){
+		background-image: url(https://hwcol.com/wp-content/uploads/2020/04/C%C3%B3mo-volvieron-los-gorilas-de-monta%C3%B1a-de-%C3%81frica-Ciencias.jpg);
+	}
+}
+.banner2{
+	background-image: url(https://st2.depositphotos.com/7402484/11915/i/450/depositphotos_119150106-stock-photo-white-big-polar-bear.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	@media all and (min-width: 524px){
+		background-image: url(https://dam.ngenespanol.com/wp-content/uploads/2019/05/especies-extincion-2.png);	
+	}
+	@media all and (min-width: 768px){
+		background-image: url(https://static.wixstatic.com/media/94c3bb_79c504b8629a4924a5c69752721d4574~mv2.jpg/v1/fill/w_1000,h_578,al_c,q_90,usm_0.66_1.00_0.01/94c3bb_79c504b8629a4924a5c69752721d4574~mv2.jpg);
+	}
+}
+.banner3{
+	background-image: url(https://i.pinimg.com/originals/6c/18/b1/6c18b1c373f4f3cd114edb3e5c3abcb2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	@media all and (min-width: 524px){
+		background-image: url(https://3.bp.blogspot.com/-HcvUEwByq8U/WMO3tTTFYhI/AAAAAAAABhw/yeWFn9zk64I91uw35wrR5yLnUX5slQsZQCEw/s1600/El-lince-ib%25C3%25A9rico.jpg);	
+	}
+	@media all and (min-width: 768px){
+		background-image: url(https://4.bp.blogspot.com/-Nxocv9b11mQ/UbYGeFHwGzI/AAAAAAAAASU/wiRj4biC8WY/s1600/linces.jpg);
+	}
+}
+.banner4{
+	background-image: url(https://www.gochile.cl/fotos/full/63367-pinguino-de-humboldt-rene-mayorga.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	@media all and (min-width: 768px){
+		background-image: url(https://cdn.download.ams.birds.cornell.edu/api/v1/asset/116085001/1800);
+	}
+}
+.banner5{
+	background-image: url(https://media.istockphoto.com/photos/cute-panda-bear-climbing-in-tree-picture-id527532860?k=6&m=527532860&s=170667a&w=0&h=mu9aEe_FhgiUdbC_zw6YbIV2psfre9prpDQ5HalksPU=);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	@media all and (min-width: 768px){
+		background-image: url(https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic2496738.jpg?w=1600&h=900);
+	}
+}
+.banner6{
+	background-image: url(https://www.mundogatos.com/Uploads/mundogatos.com/ImagenesGrandes/tigres-de-bengala.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	@media all and (min-width: 524px){
+		background-image: url(https://cuantoviven.org/wp-content/uploads/2020/03/datos-sobre-los-tigres-de-bengala_5e8377806fc16.jpeg);	
+	}
+	@media all and (min-width: 768px){
+		background-image: url(https://static.nationalgeographic.es/files/styles/image_3200/public/TIGRE.jpg?w=1900&h=1266);
+	}
+}
+.banner7{
+	background-image: url(https://media.istockphoto.com/photos/elephant-facing-serengeti-tanzania-picture-id508388152?k=6&m=508388152&s=170667a&w=0&h=3FWUHk33XazvENy0tR9GFDvm7JfaH02cukusFdvvSrY=);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	@media all and (min-width: 768px){
+		background-image: url(https://img6.juzaphoto.com/001/shared_files/uploads/3846826.jpg);
+	}
+}
+.banner8{
+	background-image: url(https://videosdeanimales.es/wp-content/uploads/2015/07/Videos-de-Animales-ballena-azul.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	@media all and (min-width: 768px){
+		background-image: url(https://vignette3.wikia.nocookie.net/reinoanimalia/images/a/a3/Ballena_azul_6.png/revision/latest?cb=20130303143129&path-prefix=es);
+	}
+}
+.list-group-item-warning{
+    color: #000;
+    background-color: #83d4ff;
+}
+.list-group-item-primary{
+    color: #000;
+    background-color: #0458e5;
+}
+.list-group-item-dark{
+    color: #000;
+    background-color: #c9580e;
+}
+.contenedor{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	padding-right: 2rem;
+	@media all and (min-width: 1000px){
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	@media all and (min-width: 1200px){
+		justify-content: center;
+	}
+	.caja{
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-radius: 1rem;
+		-webkit-box-shadow: -1px 3px 19px 7px rgba(0,0,0,0.62);
+		-webkit-backdrop-filter: blur(15px);
+		backdrop-filter: blur(15px);
+		background-color: rgba(243, 243, 243,0.2);
+		height: auto;
+		width: 100%;
+		margin: 0 0 1rem 2rem;
+		@media all and (min-width: 1000px){
+			width: 30%;
+			margin: 1rem 0 0 1rem;
+		}
+		@media all and (min-width: 1200px){
+			width: 40%;
+		}
+	}
+	.titulo{
+		color: #ffc107;
+		font-size: 1.1rem;
+		text-align: center;
+		width: 100%;
+		@media all and (min-width: 768px){
+			width: 80%;
+			margin: 0.5rem;	
+		}
+	}
+	.texto{
+		color: #fff;
+		width: 100%;
+		@media all and (min-width: 768px){
+			width: 80%;
+			margin: 0.5rem;	
+		}
+	}
+	.texto-pin{
+		color: #000;
+		width: 100%;
+		@media all and (min-width: 768px){
+			width: 80%;
+			margin: 0.5rem;	
+		}
+	}
+}	
+.aside{
+	padding-top: 8rem;
+	background-color: rgba(0, 0, 0, .7);
+}
+.titulo{
+	color: #ffc107;
+	font-size: 1.1rem;
+}
+.image{
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	@media all and (min-width: 1200px){
+		width: 300px;
+		height: 300px;
+	}
+}
+iframe{
+	padding-top: 10px;
+	width: 300px;
+	height: 300px;
+	@media all and (min-width: 768px){
+		width: 600px;
+		height: 400px;
+	}
+	@media all and (min-width: 1200px){
+		width: 800px;
+		height: 500px;
+	}
+}
+.section--coment{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	.input{
+		margin: 0.4rem 0 0.6rem 0.3rem;
+		display: block;
+		@media all and (min-width: 768px){
+			margin: 0.5rem 0 0.5rem 2.5rem;
+		}
+		@media all and (min-width: 1200px){
+			margin: 0.5rem 0 1rem 5rem;
+		}
+	}
+	.inps{
+		width: 300px;
+		height: 300px;
+		box-shadow: 0 0 10px 5px rgba(0,0,0,4);
+		@media all and (min-width: 768px){
+			width: 300px;
+			height: 300px;
+		}
+		@media all and (min-width: 1200px){
+			width: 400px;
+			height: 400px;
+		}
+	}
+}
+.footer{
+	.flexbox{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.contacto{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.avlogo{
+		width: 200px;
+		height: 200px;
+		@media all and (min-width: 1200px){
+			width: 200px;
+			height: 200px;
+		}
+	}
+	a{	
+		text-decoration: none;
+		font-size: 0.8rem;
+		@media all and (min-width: 768px){
+			font-size: 0.9rem;	
+		}
+		@media all and (min-width: 1200px){
+			color: #000;
+			font-size: 1rem;
+			&:hover{
+				color: #fff;
+				opacity: 0.5;
+			}	
+		}
+	}
+	.images{
+		display: inline-block;
+		border-radius: 150px;
+		width: 1rem;
+		height: 1rem;
+		@media all and (min-width: 1200px){
+			width: 1.5rem;
+			height: 1.5rem;
+		}
+	}
+	.copy{
+		font-size: 0.7rem;
+		@media all and (min-width: 768px){
+			font-size: 0.7rem;
+		}
+		@media all and (min-width: 1200px){
+			font-size: 1rem;
+		}
+	}
+}
