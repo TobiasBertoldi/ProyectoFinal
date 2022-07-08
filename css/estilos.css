@@ -54,7 +54,7 @@
 }
 
 .navbar-dark .container-md img {
-  margin-right: 13rem;
+  margin-right: 10rem;
   width: 60px;
   height: 60px;
   border-radius: 150px;
@@ -71,6 +71,7 @@
 }
 
 .navbar-dark .navbar-brand {
+  padding-top: 0.5rem;
   color: #569557;
   font-family: 'Raleway', sans-serif;
   font-size: 0.8rem;
@@ -195,21 +196,24 @@ article .section ul li {
 }
 
 .banner {
-  background-image: url(https://i.pinimg.com/originals/f0/96/1a/f0961aaca353129b012db4b9e87fc9ed.jpg);
+  background-image: url(https://media.istockphoto.com/photos/silverback-male-mountain-gorilla-gorilla-gorilla-beringei-volcanoes-picture-id1226332568?b=1&k=20&m=1226332568&s=170667a&w=0&h=94UyqqTrvhitjie50IKsORTJdgr2Kpw0jn67fnqhWTU=);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 @media all and (min-width: 524px) {
   .banner {
-    background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20150410103521_800.jpg);
+    background-image: url(https://www.big-animals.com/wp-content/uploads/2011/03/Mountain_Gorilla.jpg);
+    background-size: 100% 100%;
   }
 }
 
 @media all and (min-width: 768px) {
   .banner {
     background-image: url(https://hwcol.com/wp-content/uploads/2020/04/C%C3%B3mo-volvieron-los-gorilas-de-monta%C3%B1a-de-%C3%81frica-Ciencias.jpg);
+    background-size: cover;
   }
 }
 
@@ -218,6 +222,7 @@ article .section ul li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 @media all and (min-width: 524px) {
@@ -237,30 +242,35 @@ article .section ul li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 @media all and (min-width: 524px) {
   .banner3 {
     background-image: url(https://3.bp.blogspot.com/-HcvUEwByq8U/WMO3tTTFYhI/AAAAAAAABhw/yeWFn9zk64I91uw35wrR5yLnUX5slQsZQCEw/s1600/El-lince-ib%25C3%25A9rico.jpg);
+    background-size: 100% 100%;
   }
 }
 
 @media all and (min-width: 768px) {
   .banner3 {
     background-image: url(https://4.bp.blogspot.com/-Nxocv9b11mQ/UbYGeFHwGzI/AAAAAAAAASU/wiRj4biC8WY/s1600/linces.jpg);
+    background-size: cover;
   }
 }
 
 .banner4 {
   background-image: url(https://www.gochile.cl/fotos/full/63367-pinguino-de-humboldt-rene-mayorga.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 100vh;
+  width: 100vw;
 }
 
 @media all and (min-width: 768px) {
   .banner4 {
     background-image: url(https://cdn.download.ams.birds.cornell.edu/api/v1/asset/116085001/1800);
+    background-size: cover;
   }
 }
 
@@ -269,6 +279,7 @@ article .section ul li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 @media all and (min-width: 768px) {
@@ -282,6 +293,7 @@ article .section ul li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 @media all and (min-width: 524px) {
@@ -301,6 +313,7 @@ article .section ul li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 @media all and (min-width: 768px) {
@@ -310,10 +323,18 @@ article .section ul li {
 }
 
 .banner8 {
-  background-image: url(https://videosdeanimales.es/wp-content/uploads/2015/07/Videos-de-Animales-ballena-azul.jpg);
+  background-image: url(https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/gray_whale_merrill_gosho_noaa2_crop_2_1.jpg?itok=7tWBHqgz);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 100vh;
+  width: 100vw;
+}
+
+@media all and (min-width: 525px) {
+  .banner8 {
+    background-image: url(https://videosdeanimales.es/wp-content/uploads/2015/07/Videos-de-Animales-ballena-azul.jpg);
+    background-size: cover;
+  }
 }
 
 @media all and (min-width: 768px) {
