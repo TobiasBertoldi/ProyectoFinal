@@ -8,6 +8,10 @@
 	background: linear-gradient(180deg, rgba(255,255,255,1) 13%, rgba(95,186,72,1) 52%, rgba(51,99,39,1) 79%);
 	font-family: 'Raleway', sans-serif;
 }
+.fondo-contact{
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(28,111,209,1) 25%, rgba(49,198,64,1) 43%);
+}
 .principal{
 	padding-top: 5rem;
 }
@@ -31,7 +35,7 @@
 }
 .navbar-toggler{
 	.navbar-toggler-icon{
-		background-image: url(https://cdn.icon-icons.com/icons2/1572/PNG/512/3592870-brochure-document-menu-note-office-page-papers_107750.png);
+		background-image: url(https://cdn-icons.flaticon.com/png/512/5372/premium/5372882.png?token=exp=1657381199~hmac=7fecd5144d0992166dafe757ab8053f7);
 	}	
 }
 .navbar-dark .navbar-toggler{
@@ -141,14 +145,18 @@ article{
 		background-image: url(https://cdn.icon-icons.com/icons2/731/PNG/512/next-1_icon-icons.com_62883.png);
 	}
 }
-.banner{
-	background-image: url(https://media.istockphoto.com/photos/silverback-male-mountain-gorilla-gorilla-gorilla-beringei-volcanoes-picture-id1226332568?b=1&k=20&m=1226332568&s=170667a&w=0&h=94UyqqTrvhitjie50IKsORTJdgr2Kpw0jn67fnqhWTU=);
+@mixin banner($size){
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: $size;
 	height: 100vh;
 	width: 100vw;
+	max-width: 1920px;
+}	
+.banner{
+	background-image: url(https://media.istockphoto.com/photos/silverback-male-mountain-gorilla-gorilla-gorilla-beringei-volcanoes-picture-id1226332568?b=1&k=20&m=1226332568&s=170667a&w=0&h=94UyqqTrvhitjie50IKsORTJdgr2Kpw0jn67fnqhWTU=);
+	@include banner(cover);
 	@media all and (min-width: 524px){
-		background-image: url(https://www.big-animals.com/wp-content/uploads/2011/03/Mountain_Gorilla.jpg);	
+		background-image: url(https://www.big-animals.com/wp-content/uploads/2011/03/Mountain_Gorilla.jpg);
 		background-size: 100% 100%;
 	}
 	@media all and (min-width: 768px){
@@ -158,10 +166,7 @@ article{
 }
 .banner2{
 	background-image: url(https://st2.depositphotos.com/7402484/11915/i/450/depositphotos_119150106-stock-photo-white-big-polar-bear.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-	width: 100vw;
+	@include banner(cover);
 	@media all and (min-width: 524px){
 		background-image: url(https://dam.ngenespanol.com/wp-content/uploads/2019/05/especies-extincion-2.png);	
 	}
@@ -171,10 +176,7 @@ article{
 }
 .banner3{
 	background-image: url(https://i.pinimg.com/originals/6c/18/b1/6c18b1c373f4f3cd114edb3e5c3abcb2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-	width: 100vw;
+	@include banner(cover);
 	@media all and (min-width: 524px){
 		background-image: url(https://3.bp.blogspot.com/-HcvUEwByq8U/WMO3tTTFYhI/AAAAAAAABhw/yeWFn9zk64I91uw35wrR5yLnUX5slQsZQCEw/s1600/El-lince-ib%25C3%25A9rico.jpg);	
 		background-size: 100% 100%;
@@ -185,32 +187,26 @@ article{
 	}
 }
 .banner4{
+	background-image: url(https://previews.123rf.com/images/ajlber/ajlber1802/ajlber180200078/95731338-el-ping%C3%BCino-de-magallanes-spheniscus-magellanicus-en-punta-tombo-la-pen%C3%ADnsula-en-el-oc%C3%A9ano-atl%C3%A1ntico.jpg);
+	@include banner(100% 100%);
+	@media all and (min-width: 524px){
 	background-image: url(https://www.gochile.cl/fotos/full/63367-pinguino-de-humboldt-rene-mayorga.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 100vh;
-	width: 100vw;
+	background-size: cover;
+	}
 	@media all and (min-width: 768px){
 		background-image: url(https://cdn.download.ams.birds.cornell.edu/api/v1/asset/116085001/1800);
-		background-size: cover;
 	}
 }
 .banner5{
 	background-image: url(https://media.istockphoto.com/photos/cute-panda-bear-climbing-in-tree-picture-id527532860?k=6&m=527532860&s=170667a&w=0&h=mu9aEe_FhgiUdbC_zw6YbIV2psfre9prpDQ5HalksPU=);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-	width: 100vw;
+	@include banner(cover);
 	@media all and (min-width: 768px){
 		background-image: url(https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic2496738.jpg?w=1600&h=900);
 	}
 }
 .banner6{
 	background-image: url(https://www.mundogatos.com/Uploads/mundogatos.com/ImagenesGrandes/tigres-de-bengala.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-	width: 100vw;
+	@include banner(cover);
 	@media all and (min-width: 524px){
 		background-image: url(https://cuantoviven.org/wp-content/uploads/2020/03/datos-sobre-los-tigres-de-bengala_5e8377806fc16.jpeg);	
 	}
@@ -220,20 +216,14 @@ article{
 }
 .banner7{
 	background-image: url(https://media.istockphoto.com/photos/elephant-facing-serengeti-tanzania-picture-id508388152?k=6&m=508388152&s=170667a&w=0&h=3FWUHk33XazvENy0tR9GFDvm7JfaH02cukusFdvvSrY=);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-	width: 100vw;
+	@include banner(cover);
 	@media all and (min-width: 768px){
 		background-image: url(https://img6.juzaphoto.com/001/shared_files/uploads/3846826.jpg);
 	}
 }
 .banner8{
-	background-image: url(https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/gray_whale_merrill_gosho_noaa2_crop_2_1.jpg?itok=7tWBHqgz);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 100vh;
-	width: 100vw;
+	background-image: url(https://files.worldwildlife.org/wwfcmsprod/images/bluewhalefluking_RichardBarrett_WW225837_WWFTours/story_carousel/ukfll8m8z_Large_WW225837.jpg);
+	@include banner(100% 100%);
 	@media all and (min-width: 525px){
 		background-image: url(https://videosdeanimales.es/wp-content/uploads/2015/07/Videos-de-Animales-ballena-azul.jpg);
 		background-size: cover;
@@ -351,14 +341,14 @@ iframe{
 .contactanos{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	@media all and (min-width: 768px){
 		flex-direction: row;	
 	}
 	img{
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 		height: 100%;
 		width: 100%;
 		@media all and (min-width: 768px){
@@ -375,12 +365,11 @@ iframe{
 		@media all and (min-width: 768px){
 			margin-bottom: 0;
 			margin-left: 1rem;
-			margin-right: 0.5rem;
+			margin-right: 1rem;
 		}
 		@media all and (min-width: 1200px){
 			width: 400px;
 			height: 400px;
-			margin-right: 1rem;
 		}
 		.titulo-p{
 			text-decoration: underline double #000;

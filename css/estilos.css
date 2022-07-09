@@ -12,6 +12,11 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.fondo-contact {
+  background: white;
+  background: linear-gradient(180deg, white 10%, #1c6fd1 25%, #31c640 43%);
+}
+
 .principal {
   padding-top: 5rem;
 }
@@ -46,7 +51,7 @@
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background-image: url(https://cdn.icon-icons.com/icons2/1572/PNG/512/3592870-brochure-document-menu-note-office-page-papers_107750.png);
+  background-image: url(https://cdn-icons.flaticon.com/png/512/5372/premium/5372882.png?token=exp=1657381199~hmac=7fecd5144d0992166dafe757ab8053f7);
 }
 
 .navbar-dark .navbar-toggler {
@@ -201,6 +206,7 @@ article .section ul li {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
 }
 
 @media all and (min-width: 524px) {
@@ -223,6 +229,7 @@ article .section ul li {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
 }
 
 @media all and (min-width: 524px) {
@@ -243,6 +250,7 @@ article .section ul li {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
 }
 
 @media all and (min-width: 524px) {
@@ -260,17 +268,24 @@ article .section ul li {
 }
 
 .banner4 {
-  background-image: url(https://www.gochile.cl/fotos/full/63367-pinguino-de-humboldt-rene-mayorga.jpg);
+  background-image: url(https://previews.123rf.com/images/ajlber/ajlber1802/ajlber180200078/95731338-el-ping%C3%BCino-de-magallanes-spheniscus-magellanicus-en-punta-tombo-la-pen%C3%ADnsula-en-el-oc%C3%A9ano-atl%C3%A1ntico.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
+}
+
+@media all and (min-width: 524px) {
+  .banner4 {
+    background-image: url(https://www.gochile.cl/fotos/full/63367-pinguino-de-humboldt-rene-mayorga.jpg);
+    background-size: cover;
+  }
 }
 
 @media all and (min-width: 768px) {
   .banner4 {
     background-image: url(https://cdn.download.ams.birds.cornell.edu/api/v1/asset/116085001/1800);
-    background-size: cover;
   }
 }
 
@@ -280,6 +295,7 @@ article .section ul li {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
 }
 
 @media all and (min-width: 768px) {
@@ -294,6 +310,7 @@ article .section ul li {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
 }
 
 @media all and (min-width: 524px) {
@@ -314,6 +331,7 @@ article .section ul li {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
 }
 
 @media all and (min-width: 768px) {
@@ -323,11 +341,12 @@ article .section ul li {
 }
 
 .banner8 {
-  background-image: url(https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/gray_whale_merrill_gosho_noaa2_crop_2_1.jpg?itok=7tWBHqgz);
+  background-image: url(https://files.worldwildlife.org/wwfcmsprod/images/bluewhalefluking_RichardBarrett_WW225837_WWFTours/story_carousel/ukfll8m8z_Large_WW225837.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
 }
 
 @media all and (min-width: 525px) {
@@ -494,7 +513,7 @@ iframe {
 .contactanos {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
@@ -506,7 +525,7 @@ iframe {
 }
 
 .contactanos img {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   height: 100%;
   width: 100%;
 }
@@ -530,7 +549,7 @@ iframe {
   .contactanos .contacto-body {
     margin-bottom: 0;
     margin-left: 1rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
   }
 }
 
@@ -538,7 +557,6 @@ iframe {
   .contactanos .contacto-body {
     width: 400px;
     height: 400px;
-    margin-right: 1rem;
   }
 }
 
